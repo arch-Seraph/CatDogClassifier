@@ -11,6 +11,15 @@ The pipeline handles the entire machine learning workflow, including:
 - Evaluating performance on a separate test set.
 - Making predictions on individual random samples.
 
+## Dataset
+The dataset used in this project is the Dogs vs. Cats dataset, originally sourced from Kaggle.
+
+-Source: Kaggle Dogs vs. Cats Dataset
+-Format: The images have been pre-processed and flattened into .csv files for this specific pipeline.
+-Structure:
+  input.csv: Flattened pixel values for training images.
+  labels.csv: Binary labels where 0 represents a Dog and 1 represents a Cat.
+
 ## Technical Stack
 - **Language:** Python 3.x
 - **Deep Learning Framework:** TensorFlow / Keras
