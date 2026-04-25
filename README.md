@@ -17,8 +17,8 @@ The dataset used in this project is the Dogs vs. Cats dataset, originally source
 - Source: Kaggle Dogs vs. Cats Dataset.
 - Format: The images have been pre-processed and flattened into .csv files for this specific pipeline.
 - Structure:
-  input.csv: Flattened pixel values for training images.
-  labels.csv: Binary labels where 0 represents a Dog and 1 represents a Cat.
+  1. input.csv: Flattened pixel values for training images.
+  2. labels.csv: Binary labels where 0 represents a Dog and 1 represents a Cat.
 
 ## Technical Stack
 - **Language:** Python 3.x
