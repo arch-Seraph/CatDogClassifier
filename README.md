@@ -14,9 +14,9 @@ The pipeline handles the entire machine learning workflow, including:
 ## Dataset
 The dataset used in this project is the Dogs vs. Cats dataset, originally sourced from Kaggle.
 
--Source: Kaggle Dogs vs. Cats Dataset
--Format: The images have been pre-processed and flattened into .csv files for this specific pipeline.
--Structure:
+- Source: Kaggle Dogs vs. Cats Dataset.
+- Format: The images have been pre-processed and flattened into .csv files for this specific pipeline.
+- Structure:
   input.csv: Flattened pixel values for training images.
   labels.csv: Binary labels where 0 represents a Dog and 1 represents a Cat.
 
